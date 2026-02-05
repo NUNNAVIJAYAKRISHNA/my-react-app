@@ -1,5 +1,6 @@
 import { ProfileCard } from "./components/profileCard";
 import { AboutMe } from "./components/aboutMe";
+import { LangaugesKnown } from "./components/languagesKnown";
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
       <ProfileCard />
       <AboutMe />
+      <LangaugesKnown />
     </>
   )
 }
