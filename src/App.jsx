@@ -1,10 +1,15 @@
-import { ProfileCard } from "./components/profileCard"
+import { ProfileCard } from "./components/profileCard";
+import { AboutMe } from "./components/aboutMe";
+
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    <ProfileCard />
+    <>
+      <ProfileCard />
+      <AboutMe />
+    </>
   )
 }
 
