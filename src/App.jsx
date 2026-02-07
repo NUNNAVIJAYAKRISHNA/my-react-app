@@ -5,7 +5,6 @@ import { Technologies } from "./components/technologies";
 
 
 function App() {
-  // const [count, setCount] = useState(0)
 
   return (
     <>
