@@ -9,13 +9,13 @@ import { ProjectCards } from "./components/projectCards";
 function App() {
 
   return (
-    <>
+    <div className="opacity-0 animate-fadeIn">
       <ProfileCard />
       <AboutMe />
       <LangaugesKnown />
       <Technologies />
       <ProjectCards />
-    </>
+    </div>
   )
 }
 

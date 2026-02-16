@@ -3,7 +3,7 @@ export function Technologies() {
     <>
       <p className="text-3xl m-2 p-2 font-semibold">TECHNOLOGIES WORKING WITH</p>
       {/* GRID CONTAINER */}
-      <div className="grid grid-cols-3 lg:grid-cols-5 gap-6 m-2 p-2">
+      <div className="grid grid-cols-3 lg:grid-cols-5 gap-6 m-2 p-2 opacity-0 animate-fadeIn [animation-delay:900ms] mx-auto">
         {/* CARD */}
         <div className="bg-white flex flex-col items-center gap-4 p-6 rounded-xl border-l-8 border-orange-500 shadow-md transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
           <img
