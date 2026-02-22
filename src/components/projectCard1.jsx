@@ -1,24 +1,24 @@
 export function ProjectCard1() {
   return (
-    <div className="bg-white border border-gray-200 rounded-xl shadow-md p-6 max-w-3xl 
+    <div className="bg-royal border-gray-200 rounded-xl shadow-md p-6 max-w-3xl 
     min-h-[420px] flex flex-col">
 
-      <h2 className="text-2xl font-semibold text-gray-800 mb-2">
+      <h2 className="text-2xl font-semibold text-white mb-2">
         CampusConnect
       </h2>
 
-      <p className="text-sm text-gray-500 mb-4">
+      <p className="text-sm text-white mb-4">
         College Event & Circular Management Platform
       </p>
 
-      <p className="text-gray-700 leading-relaxed mb-4 text-2xl">
+      <p className="text-white leading-relaxed mb-4 text-2xl">
         CampusConnect is a full-stack web application designed to streamline how
         students and administrators manage college events, circulars, and campus
         activities on a single centralized platform. The project addresses the
         common problem of fragmented communication and manual event handling.
       </p>
 
-      <p className="text-gray-700 leading-relaxed mb-4 text-2xl">
+      <p className="text-white leading-relaxed mb-4 text-2xl">
         The platform supports role-based access, allowing students and
         administrators to interact with the system according to their
         responsibilities. Students can discover events, register seamlessly,
